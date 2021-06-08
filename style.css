@@ -1,0 +1,32 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+header{
+  background: grey;
+}
+
+
+#nav li {
+  
+  padding-right: 30px;
+  list-style-type: none;
+  text-align: right;
+  float: right;
+  padding: 50px;
+}
+#nav li a{
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+#logo{
+  float: left;
+  padding: 15px;
+  
+}
