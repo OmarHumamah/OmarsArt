@@ -3,10 +3,12 @@
   padding: 0px;
   box-sizing: border-box;
 }
-
+/*....................*/
 
 header{
-  background: grey;
+  height: 125px; 
+  background-image: url(https://www.watermeetsmoney.com/wp-content/uploads/2017/11/Header-background-2.png)
+  
 }
 
 
@@ -17,6 +19,7 @@ header{
   text-align: right;
   float: right;
   padding: 50px;
+  
 }
 #nav li a{
   text-decoration: none;
@@ -30,3 +33,44 @@ header{
   padding: 15px;
   
 }
+
+/*..........................*/
+
+#welcome{
+  text-align: center;
+  padding: 65px;
+}
+
+#welcome h1{padding: 25px}
+
+/*..........................*/
+
+.gallery{
+  height: 117px ;
+  width: 208px ;
+}
+
+.title{
+  padding-bottom: 30px;
+}
+
+#lp{
+  padding: 65px;
+}
+
+#lp ul li{
+  list-style-type:none ;
+  padding: 15px;
+  display: inline-block;
+  text-align: center;
+}
+
+/*..........................*/
+
+footer{
+  background: aquamarine;
+  height: 100px;
+  text-align: center;
+  padding: 40px;
+}
+
