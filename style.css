@@ -38,11 +38,7 @@ header{
 
 #welcome{
   text-align: center;
-<<<<<<< HEAD
   padding: 65px;
-=======
-  padding: 75px;
->>>>>>> 237ccf50388e1c95e3e35dd127ee328981f7996a
 }
 
 #welcome h1{padding: 25px}
@@ -50,7 +46,6 @@ header{
 /*..........................*/
 
 .gallery{
-<<<<<<< HEAD
   height: 117px ;
   width: 208px ;
 }
@@ -73,14 +68,8 @@ header{
 /*..........................*/
 
 footer{
-  background: aquamarine;
+  background: url(https://raw.githubusercontent.com/OmarHumamah/OmarsArt/main/F%20images/footer.jpg);
   height: 100px;
   text-align: center;
   padding: 40px;
 }
-
-=======
-  height: 234px ;
-  width: 416px ;
-}
->>>>>>> 237ccf50388e1c95e3e35dd127ee328981f7996a
