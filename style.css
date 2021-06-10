@@ -11,7 +11,9 @@ header{
   background-image: url(https://www.watermeetsmoney.com/wp-content/uploads/2017/11/Header-background-2.png);
   background-repeat: no-repeat;
   background-size: cover; 
-  margin-bottom: 100px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 
@@ -45,7 +47,7 @@ header{
 }
 
 p{
- background: #51dbd5;
+ background: #51dbd4b6;
   border-radius: 25px; 
   height: 200px ;
   padding: 15px;
@@ -67,7 +69,7 @@ p{
 
 
 #lp ul{
-  background: #51dbd5;
+  background: #51dbd4b6;
   border-radius: 25px;
   padding: 5px;
   margin-right: 50px;
@@ -91,13 +93,16 @@ footer{
   height: 100px;
   text-align: center;
   padding: 40px;
-  margin-top: 100px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  
 }
 
 /* ............................................................ */
 
 .title{
-  background: #5f519b;
+  background: rgba(95, 81, 155, 0.651);
   
   border-radius: 25px;
   padding: 15px ; 
@@ -109,8 +114,11 @@ footer{
  }
 
  body{
-   background: url();
+   background: url(https://github.com/OmarHumamah/OmarsArt/blob/main/F%20images/background.jpg?raw=true);
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
+   margin-bottom: 200px;
+   margin-top: 200px;
+   
  }
