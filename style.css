@@ -2,13 +2,16 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: 'Satisfy', cursive;
 }
 /*....................*/
 
 header{
   height: 125px; 
-  background-image: url(https://www.watermeetsmoney.com/wp-content/uploads/2017/11/Header-background-2.png)
-  
+  background-image: url(https://www.watermeetsmoney.com/wp-content/uploads/2017/11/Header-background-2.png);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  margin-bottom: 100px;
 }
 
 
@@ -34,53 +37,80 @@ header{
   
 }
 
-/*..........................*/
+/*..........wellcome................*/
 
 #welcome{
   text-align: center;
-<<<<<<< HEAD
-  padding: 65px;
-=======
-  padding: 75px;
->>>>>>> 237ccf50388e1c95e3e35dd127ee328981f7996a
+  
 }
 
-#welcome h1{padding: 25px}
+p{
+ background: #51dbd5;
+  border-radius: 25px; 
+  height: 200px ;
+  padding: 15px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+  
 
-/*..........................*/
+/*...........photos...............*/
 
 .gallery{
-<<<<<<< HEAD
   height: 117px ;
   width: 208px ;
 }
 
-.title{
-  padding-bottom: 30px;
-}
 
-#lp{
-  padding: 65px;
+
+
+#lp ul{
+  background: #51dbd5;
+  border-radius: 25px;
+  padding: 5px;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
 #lp ul li{
   list-style-type:none ;
-  padding: 15px;
   display: inline-block;
   text-align: center;
+  padding: 15px;
+
 }
 
-/*..........................*/
+/*.............footer.............*/
 
 footer{
-  background: aquamarine;
+  background: url(https://raw.githubusercontent.com/OmarHumamah/OmarsArt/main/F%20images/footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; 
   height: 100px;
   text-align: center;
   padding: 40px;
+  margin-top: 100px;
 }
 
-=======
-  height: 234px ;
-  width: 416px ;
+/* ............................................................ */
+
+.title{
+  background: #5f519b;
+  
+  border-radius: 25px;
+  padding: 15px ; 
+  margin-right: 50px;
+  margin-left: 50px;
 }
->>>>>>> 237ccf50388e1c95e3e35dd127ee328981f7996a
+ small{
+   font-family: "Times New Roman", Times, serif;
+ }
+
+ body{
+   background: url();
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+ }
