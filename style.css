@@ -14,6 +14,7 @@ header{
   position: fixed;
   top: 0;
   width: 100%;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 20px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -63,6 +64,7 @@ p{
 .gallery{
   height: 117px ;
   width: 208px ;
+  box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.822), 0 20px 40px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -75,6 +77,7 @@ p{
   margin-right: 50px;
   margin-left: 50px;
   margin-bottom: 2.5rem;
+  
 }
 
 #lp ul li{
@@ -93,7 +96,7 @@ footer{
   background-size: cover; 
   text-align: center;
   padding: 10px;
-  position: absolute;
+  /* position: absolute; */
   bottom: 0;
   width: 100%;
   height: 2.5rem; 
@@ -119,8 +122,13 @@ footer{
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
-   
    position: relative;
    min-height: 100vh;
    margin-top: 200px;
+   background-attachment: fixed;
  }
+
+ #lp ul, .title, p{
+box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.63), 0 20px 40px 0 rgba(0, 0, 0, 0.19);
+ }
+ 
