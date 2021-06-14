@@ -66,8 +66,8 @@ p{
 /*...........photos...............*/
 
 .gallery{
-  height: 117px ;
-  width: 208px ;
+  max-width: 208px ;
+  width: 100% ;
   box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.822), 0 20px 40px 0 rgba(0, 0, 0, 0.19);
   border-radius: 5px;
   cursor: pointer;
