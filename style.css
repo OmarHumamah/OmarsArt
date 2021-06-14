@@ -74,6 +74,14 @@ p{
   transition: 0.3s;
 }
 
+.scrolling-wrapper{
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+/* .scrolling-wrapper::-webkit-scrollbar{
+  width:2px ;
+} */
 
 
 
@@ -137,6 +145,8 @@ footer{
  #lp ul, .title, p{
 box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.63), 0 20px 40px 0 rgba(0, 0, 0, 0.19);
  }
+
+ #lp{padding-bottom: 200px}
 /* ............................imgPopup................................ */
  .modal{
    display: none;
