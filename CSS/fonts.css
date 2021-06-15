@@ -1,0 +1,17 @@
+*{
+  font-family: 'Satisfy', cursive;
+}
+
+small{
+   font-family: "Times New Roman", Times, serif;
+ }
+
+.close { 
+  font-family: "Arial";
+  font-size: 90px;
+  font-weight: bold;
+}
+
+p, #caption, #Check{
+  font-family: 'Courgette', cursive;
+}
