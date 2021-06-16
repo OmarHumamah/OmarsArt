@@ -6,7 +6,7 @@ small{
    font-family: "Times New Roman", Times, serif;
  }
 
-.close { 
+.close, .closeTOC { 
   font-family: "Arial";
   font-size: 90px;
   font-weight: bold;

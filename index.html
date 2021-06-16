@@ -4,19 +4,42 @@
 <head>
 	<title>Omar's Art</title>
 	<link rel="stylesheet" href="CSS/style.css">
-  <link rel="stylesheet" href="CSS/fonts.css">
+	<link rel="stylesheet" href="CSS/fonts.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
+	<div id="tableOfCont" class="TOC">
+		<a class="closeTOC" onclick="closeTOC();">&times;</a>
+		<a onclick="closeP();" onclick="openP();">Photography
+			<div id="P" class="cat">
+				<a href="">Landscape</a>
+				<a href="">Food</a>
+			</div>
+		</a>
+
+		<a href="">Drawings</a>
+		<div id="D" class="cat">
+			<a href=""></a>
+			<a href=""></a>
+		</div>
+		<a href="">Photoshop</a>
+		<div id="PS" class="cat">
+			<a href=""></a>
+			<a href=""></a>
+		</div>
+	</div>
+
+
+	<!-- ................................................. -->
 	<header>
 		<img src="F images/logo.png" alt="Omar's Art" width="120" height="120" id="logo">
    <ul id="nav">
      <li><a href="">Home</a></li>
-     <li><a href="">Table of contents</a></li>
+     <li><a onclick="openTOC();">Table of contents</a></li>
      <li><a href="">About me</a></li>
    </ul>
  </header>
@@ -188,7 +211,7 @@
 </section>
 
 
-<section id="Check">Check more artwork <a href="">Table of contents</a>!!</section>
+<section id="Check">Check more artwork <a style="cursor:pointer" onclick="openTOC();">Table of contents</a>!!</section>
 
 
 

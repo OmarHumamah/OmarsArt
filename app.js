@@ -54,3 +54,18 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function(){
 modal.style.display = "none";
 }
+
+function openTOC() {
+  document.getElementById("tableOfCont").style.width = "250px";
+}
+
+function closeTOC(){
+  document.getElementById("tableOfCont").style.width = "0px";
+}
+
+function closeP(){
+  document.getElementById("P").style.display = "none";
+}
+function openP(){
+  document.getElementById("P").style.display = "block";
+}
