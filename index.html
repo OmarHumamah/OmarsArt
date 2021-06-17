@@ -5,6 +5,8 @@
 	<title>Omar's Art</title>
 	<link rel="stylesheet" href="CSS/style.css">
 	<link rel="stylesheet" href="CSS/fonts.css">
+  <link rel="stylesheet" href="CSS/TableOfContent.css">
+  <link rel="stylesheet" href="CSS/PopUpImgs.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
@@ -14,23 +16,26 @@
 
 	<div id="tableOfCont" class="TOC">
 		<a class="closeTOC" onclick="closeTOC();">&times;</a>
-		<a onclick="closeP();" onclick="openP();">Photography
-			<div id="P" class="cat">
-				<a href="">Landscape</a>
-				<a href="">Food</a>
-			</div>
-		</a>
+		<input id="check01" type="checkbox"  />
+    <label for="check01">Photography</label>
+    <ul class="submenuP">
+      <li><a href="#">Landscape</a></li>
+      <li><a href="#">Abstract</a></li>
+    </ul>
+     
+		<input id="check02" type="checkbox"  />
+    <label for="check02">Drawings</label>
+    <ul class="submenuD">
+      <li><a href="#">....</a></li>
+      <li><a href="#">....</a></li>
+    </ul>
 
-		<a href="">Drawings</a>
-		<div id="D" class="cat">
-			<a href=""></a>
-			<a href=""></a>
-		</div>
-		<a href="">Photoshop</a>
-		<div id="PS" class="cat">
-			<a href=""></a>
-			<a href=""></a>
-		</div>
+		<input id="check03" type="checkbox"  />
+    <label for="check03">Photoshop</label>
+    <ul class="submenuPS">
+      <li><a href="#">Commercial ads</a></li>
+      <li><a href="#">Ideas</a></li>
+    </ul>
 	</div>
 
 
@@ -38,7 +43,7 @@
 	<header>
 		<img src="F images/logo.png" alt="Omar's Art" width="120" height="120" id="logo">
    <ul id="nav">
-     <li><a href="">Home</a></li>
+     <li><a href="index.html">Home</a></li>
      <li><a onclick="openTOC();">Table of contents</a></li>
      <li><a href="">About me</a></li>
    </ul>
@@ -47,7 +52,7 @@
   <div id="welcome">
    <h1 class="title">Welcome to Omar's Art</h1>
    <p > 
-     This site is presenting some of my visual art; photography photos, drawings, and some photoshop stuff. <br>Hope you enjoy it!</br>
+     This site is presenting some of my artwork; photography photos, drawings, and some photoshop stuff. <br>Hope you enjoy it!</br>
    </p>
   </div>
 

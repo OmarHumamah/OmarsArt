@@ -15,8 +15,8 @@ header{
   top: 0;
   width: 100%;
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 20px 10px 0 rgba(0, 0, 0, 0.19);
+  z-index: 2;
 }
-
 
 #nav li {
   
@@ -66,7 +66,6 @@ p{
   font-size: 20px;
 }
   
-
 /*...........photos...............*/
 
 .gallery{
@@ -77,6 +76,7 @@ p{
   cursor: pointer;
   transition: 0.3s;
 }
+.gallery:hover{opacity: 0.7;}
 
 .scrolling-wrapper{
   overflow-x: scroll;
@@ -101,7 +101,7 @@ p{
   padding: 15px;
 
 }
-
+/*.............................*/
 #Check{
   margin-top: 75px;
   margin-bottom: 200px;
@@ -116,13 +116,13 @@ footer{
   background-size: cover; 
   text-align: center;
   padding: 41px;
-  /* position: absolute; */
   bottom: 0;
   width: 100%;
   height: 6.5rem; 
+
 }
 
-/* ............................................................ */
+/* ............CardColors&BodyBackground............. */
 
 .title{
   background: rgba(95, 81, 155, 0.651);
@@ -148,123 +148,3 @@ footer{
  #lp ul, .title, p{
 box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.63), 0 20px 40px 0 rgba(0, 0, 0, 0.19);
  }
-
-/* ............................imgPopup................................ */
- .modal{
-   display: none;
-   vertical-align: middle;
-   position: fixed;
-   z-index: 1;
-   padding: 100px;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-   overflow: auto;
-   background-color: rgba(0, 0, 0, 0.9);
-  }
-
-.close:hover,
-.close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.close { 
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
-  transition: 0.3s;
-}
- 
- @media only screen and (max-width: 700px){
-  .modal-content {
-    width: 100%;
-  }
-}
- 
-.modal-content {
-  margin: auto;
-  display: block;
-  max-width: -webkit-fill-available;
-  max-height: -webkit-fill-available;
-}
-.gallery:hover{opacity: 0.7;}
-
-#caption {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  color: #ccc;
-  padding: 10px 0;
-  height: 150px;
-}
-
-.modal-content, #caption {  
-  -webkit-animation-name: spin;
-  -webkit-animation-duration: 0.6s;
-  animation-name: spin;
-  animation-duration: 0.6s;
-}
-
-@-webkit-keyframes spin {
-  from {-webkit-transform:scale(0)} 
-  to {-webkit-transform:scale(1)}
-}
-
-@keyframes spin {
-  from {transform:scale(0)} 
-  to {transform:scale(1)}
-}
-
-
-
-
-/* .............................. */
-
-
-.TOC {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 125px;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.9);
-  box-shadow: 8px 0  8px 0 rgba(0, 0, 0, 0.699), 20px 0  10px 0 rgba(0, 0, 0, 0.19);
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.TOC a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-  cursor: pointer;
-}
-
-#tableOfCont a:hover{
-  text-shadow: 0px 0px 1.5px  #ffff, 0 0 7.5px #f1f1f1 
-}
-
-.cat a{
- font-size: 19px;
-}
- 
-
-.TOC .closeTOC {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-  cursor: pointer;
-}

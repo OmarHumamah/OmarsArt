@@ -1,3 +1,4 @@
+// .................PopUpCodes...................
 var modal = document.getElementById("myModal"); 
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
@@ -19,7 +20,7 @@ popup("l05");
 popup("l06");
 popup("l07");
 
-// .........................................................
+// .....................
 
 popup("d01");
 popup("d02");
@@ -29,7 +30,7 @@ popup("d05");
 popup("d06");
 popup("d07");
 
-// .........................................................
+// ......................
 
 popup("p01");
 popup("p02");
@@ -39,7 +40,7 @@ popup("p05");
 popup("p06");
 popup("p07");
 
-// .........................................................
+// .......................
 
 popup("a01");
 popup("a02");
@@ -47,25 +48,21 @@ popup("a03");
 popup("a04");
 popup("a05");
 popup("a06");
+popup("a07");
 
-// .........................................................
+// ...........................
 
 var span = document.getElementsByClassName("close")[0];
 span.onclick = function(){
 modal.style.display = "none";
 }
 
+
+// ...........TableOfContCODES........
 function openTOC() {
   document.getElementById("tableOfCont").style.width = "250px";
 }
 
 function closeTOC(){
   document.getElementById("tableOfCont").style.width = "0px";
-}
-
-function closeP(){
-  document.getElementById("P").style.display = "none";
-}
-function openP(){
-  document.getElementById("P").style.display = "block";
 }
